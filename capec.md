@@ -18,9 +18,9 @@ Each attack pattern has four attributes:
 * **ID (integer)**: Attack pattern identifier. Example: 130
 * **Name (string)**: Attack pattern name. Example: "Excessive Allocation"
 * **Abstraction (AbstractionEnumeration)**: Defines the different abstraction levels of an attack pattern.
-** **Meta**: High level abstraction of attack patterns to architecture and design levels.
-** **Standard**: Specific technique used in a bigger attack. It is usually seen as a piece of the entire attack.
-** **Detailed**: Low level detail of a specific technique targeting a specific technology.
+    * **Meta**: High level abstraction of attack patterns to architecture and design levels.
+    * **Standard**: Specific technique used in a bigger attack. It is usually seen as a piece of the entire attack.
+    * **Detailed**: Low level detail of a specific technique targeting a specific technology.
 * **Status (StatusEnumeration)**: Status of the specific Attack Pattern (Deprecated, Draft, Incomplete, Obsolete, Stable or Usable).
 
 
