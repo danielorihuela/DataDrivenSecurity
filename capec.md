@@ -48,12 +48,12 @@ Optional:
 * ***Consecuences: Individual consequences associated with an attack pattern***
 * ***Mitigations: Actions to prevent or mitigate the risk of an attack that leverages this attack pattern.***
 * ***Example Instances: Attack pattern examples.***
-* ***Related Weakness: References to weaknesses associated with this attack pattern***
+* ***Related Weakness: References to weaknesses associated with this attack pattern.***
     * Example: <Related_Weakness CWE_ID="1021"/>.
-* ***Taxonomy Mappings: Similar categories in taxomomies outside of CAPEC***
+* ***Taxonomy Mappings: Similar categories in taxomomies outside of CAPEC.***
 * ***References: External reference defined within the catalog.***
-* ***Notes: Additional comments that cannot be captured using the other elements***
-* ***Content History: Track of the original author of an entry and any subsequent modifications to the content***
+* ***Notes: Additional comments that cannot be captured using the other elements.***
+* ***Content History: Track of the original author of an entry and any subsequent modifications to the content.***
 
 ### CAPEC Attack Pattern schema
 
