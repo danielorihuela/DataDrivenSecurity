@@ -11,10 +11,10 @@ The Attack pattern catalog is used to hold an enumerated catalog of common attac
 * **Views**
 * **External References**
 
-## Attack Pattern
+### Attack Pattern
 The Attack Pattern is an abstraction of an attack which has:
 
-### Attributes
+#### Attributes
 
 Each attack pattern has four attributes:
 
@@ -27,33 +27,35 @@ Each attack pattern has four attributes:
 * **Status (StatusEnumeration)**: Status of the specific Attack Pattern (Deprecated, Draft, Incomplete, Obsolete, Stable or Usable).
 
 
-### Elements
+#### Elements
 
 Mandatory:
 * ***Description: Representation of a high level description of the attack pattern.*** 
 
 Optional:
-* ***Alternate Terms: *** 
-* ***Likelihood Of Attack:***
-    * Possibilities: High, Medium, Low, Unknown
-* ***Typ Severity: Average probability that an attack uses "x" as a pattern***
-    * Possibilities: Very High, High, Medium, Low, Very Low
-* ***Related Attack Patterns:*** 
-* ***Execution Flow:*** 
-* ***Prerequisites:*** 
-* ***Skills Required:*** 
-* ***Resources Required:***
-* ***Indicators:***
-* ***Consecuences:***
-* ***Mitigations:***
-* ***Example Instances:***
-* ***Related Weakness:***
+* ***Alternate Terms: Alternative names to describe the same pattern.*** 
+* ***Likelihood Of Attack: Captures the average probability that the attack uses a specific pattern to be successful.***
+    * Possibilities: High, Medium, Low, Unknown.
+* ***Typ Severity: Overall average severity value for attacks that leverage this attack pattern.***
+    * Possibilities: Very High, High, Medium, Low, Very Low.
+* ***Related Attack Patterns: Relates the CAPEC identifier to another attack pattern.*** 
+* ***Execution Flow: Step-by-step description.*** 
+* ***Prerequisites: Prerequisites to an attack.*** 
+* ***Skills Required: Skills required to perform the attack.***
+    * Possibilities: High, Medium, Low.
+* ***Resources Required: Resources needed to execute the attack***
+* ***Indicators: Activities, events, conditions or behaviors that may indicate that an attack of leveraging this attack pattern is imminent, in progress, or has occurred. 
+ ***
+* ***Consecuences: Individual consequences associated with an attack pattern***
+* ***Mitigations: Actions to prevent or mitigate the risk of an attack that leverages this attack pattern.***
+* ***Example Instances: Attack pattern examples.***
+* ***Related Weakness: ***
 * ***Taxonomy Mappings:***
 * ***References:***
 * ***Notes:***
 * ***Content History:***
 
-## CAPEC Attack Pattern schema
+### CAPEC Attack Pattern schema
 
 ```xml
 <!-- =============================================================================== -->
