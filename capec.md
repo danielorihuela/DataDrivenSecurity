@@ -14,21 +14,6 @@ The Attack pattern catalog is used to hold an enumerated catalog of common attac
 ## Attack Pattern
 The Attack Pattern is an abstraction of an attack which has:
 
-**Attributes**
-
-
-**Elements:**
-
-* ***Description: Representation of a high level description of the attack pattern.*** *
-* ***Alternate Terms: *** *
-* ***Likelihood Of Attack:*** *
-* ***Typ_Severity*** * 
-* ***Related_Attack_Patterns*** * 
-* ***Execution_Flow*** *
-* ***Prerequisites*** * 
-* ***Skills Required*** * 
-
-
 ### Attributes
 
 Each attack pattern has four attributes:
@@ -42,33 +27,31 @@ Each attack pattern has four attributes:
 * **Status (StatusEnumeration)**: Status of the specific Attack Pattern (Deprecated, Draft, Incomplete, Obsolete, Stable or Usable).
 
 
-## Elements
+### Elements
 
 Mandatory:
-
-* Description
+* ***Description: Representation of a high level description of the attack pattern.*** 
 
 Optional:
-
-* **Likelihood_Of_Attack**
+* ***Alternate Terms: *** 
+* ***Likelihood Of Attack:***
     * Possibilities: High, Medium, Low, Unknown
-* **Typical_Severity**
+* ***Typ Severity: Average probability that an attack uses "x" as a pattern***
     * Possibilities: Very High, High, Medium, Low, Very Low
-* **Related_Attack_Patterns**
-* **Execution_Flow**
-* **Prerequisites**
-* **Skills_Required**
-* **Resources_Required**
-* **Indicators**
-* **Consequences**
-* **Mitigations**
-* **Example_Instances**
-* **Related_Weaknesses**
-* **Taxonomy_Mappings**
-* **References**
-* **Notes**
-* **Content_History**
-
+* ***Related Attack Patterns:*** 
+* ***Execution Flow:*** 
+* ***Prerequisites:*** 
+* ***Skills Required:*** 
+* ***Resources Required:***
+* ***Indicators:***
+* ***Consecuences:***
+* ***Mitigations:***
+* ***Example Instances:***
+* ***Related Weakness:***
+* ***Taxonomy Mappings:***
+* ***References:***
+* ***Notes:***
+* ***Content History:***
 
 ## CAPEC Attack Pattern schema
 
