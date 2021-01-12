@@ -2,16 +2,27 @@
 
 CAPEC (Common Attack Pattern Enumeration and Classification) is a set of common attack patterns to help understand how adversaries exploit weaknesses.
 
+## Attack Pattern Catalog
 
-# CAPEC Attack Pattern
+The Attack pattern catalog is used to hold an enumerated catalog of common attack patterns and contains:
 
+* **Attack Patterns**
+* **Categories**
+* **Views**
+* **External References**
+
+## Attack Pattern
 The Attack Pattern is an abstraction of an attack which has:
 
-* Attributes, which are mandatory
-* Elements, which can be optional
+**Attributes**
 
 
-## Attributes
+**Elements:**
+
+* ***Description: Representation of a high level description of the attack pattern.*** *
+
+
+### Attributes
 
 Each attack pattern has four attributes:
 
