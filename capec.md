@@ -20,6 +20,13 @@ The Attack Pattern is an abstraction of an attack which has:
 **Elements:**
 
 * ***Description: Representation of a high level description of the attack pattern.*** *
+* ***Alternate Terms: *** *
+* ***Likelihood Of Attack:*** *
+* ***Typ_Severity*** * 
+* ***Related_Attack_Patterns*** * 
+* ***Execution_Flow*** *
+* ***Prerequisites*** * 
+* ***Skills Required*** * 
 
 
 ### Attributes
