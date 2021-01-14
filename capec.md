@@ -61,7 +61,7 @@ Collection of attack patterns based on some common characteristic.
 
 #### Attributes
 
-Each category pattern has three attributes:
+Each category has three attributes:
 
 Mandatory:
 * ***ID:*** Unique identifier for each category.
@@ -86,7 +86,7 @@ Perspective with which one might look at the collection of attack patterns defin
 
 #### Attributes
 
-Each category pattern has four attributes:
+Each view has four attributes:
 
 Mandatory:
 * ***ID:*** Unique identifier for each category.
@@ -115,7 +115,17 @@ Collection of elements that provide a pointer to where more information and deep
 * ***Reference ID:*** Unique identifier for each reference.
 
 #### Elements
+Mandatory:
+* ***Title:*** Reference.
 
+
+Optional:
+* ***Audience:*** Reference of target stakeholders or group for whom the view is most relevant.
+* ***Members:*** Defined externally through memberOf relationships.
+* ***Filter:*** XSL query for identifying which attack patterns are members of an implicit slice.
+* ***References:*** More information about each view.
+* ***Notes:*** Additional comments that cannot be captured using the other elements.
+* ***Content History:*** Track of the original author of an entry and any subsequent modifications to the content.
 
 ### CAPEC Attack Pattern schema
 
