@@ -61,23 +61,52 @@ Collection of attack patterns based on some common characteristic.
 
 #### Attributes
 
-Each category pattern has four attributes:
+Each category pattern has three attributes:
 
+Mandatory:
+* ***ID:*** Unique identifier for each category.
+* ***Name:*** Descriptive title.
+* ***Status:*** Status level for each category.
 
 
 #### Elements
-
-Each category pattern has four attributes:
 
 Mandatory:
 * ***Summary:*** Definition of the category.
 
 Optional:
 * ***Relationships:*** Relationships with attack patterns, categories and views.
-* ***Taxonomy Mappings:*** imilar categories in taxomomies outside of CAPEC.
-* ***References:*** Relations with .
-* ***Notes:*** Definition of the category.
-* ***Content History:*** Definition of the category.
+* ***Taxonomy Mappings:*** Similar categories in taxomomies outside of CAPEC.
+* ***References:*** More defined information.
+* ***Notes:*** Additional comments that cannot be captured using the other elements.
+* ***Content History:*** Track of the original author of an entry and any subsequent modifications to the content.
+
+### View
+Perspective with which one might look at the collection of attack patterns defined within CAPEC.
+
+#### Attributes
+
+Each category pattern has four attributes:
+
+Mandatory:
+* ***ID:*** Unique identifier for each category.
+* ***Name:*** Descriptive title.
+* ***Type:*** Description about how each view is being constructed.
+* ***Status:*** Status level for each category.
+  
+
+#### Elements
+
+Mandatory:
+* ***Objective:*** Description about the perspective from which the view has been constructed.
+
+Optional:
+* ***Audience:*** Reference of target stakeholders or group for whom the view is most relevant.
+* ***Members:*** Defined externally through memberOf relationships.
+* ***Filter:*** XSL query for identifying which attack patterns are members of an implicit slice.
+* ***References:*** More information about each view.
+* ***Notes:*** Additional comments that cannot be captured using the other elements.
+* ***Content History:*** Track of the original author of an entry and any subsequent modifications to the content.
 
 ### CAPEC Attack Pattern schema
 
