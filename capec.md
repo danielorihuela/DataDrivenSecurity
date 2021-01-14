@@ -130,7 +130,29 @@ Optional:
 * ***URL Date:*** Date when the URL was validated to exist.
 
 ###  Global Types
- 
+
+#### Complex Type Summary:
+
+* ***AlternateTerms Type***
+* ***AudienceType***
+* ***ConsequencesType***
+* ***ContentHistoryType***
+* ***ExampleInstancesType***
+* ***ExcludeRelatedType***
+* ***ExecutionFlowType***
+* ***IndicatorsType***
+* ***MitigationsType***
+* ***NotesType***
+* ***PrerequisitesType***
+* ***ReferencesType***
+* ***RelatedAttackPatternType***
+* ***RelatedWeaknessesType***
+* ***RelationshipsType***
+* ***RequiredResourcesType***
+* ***SkillsType***
+* ***TaxonomyMappingsType***
+
+###  Global Types
 
 ### CAPEC Attack Pattern schema
 
@@ -312,4 +334,6 @@ Optional:
 
 ## References
 
-https://capec.mitre.org/
+https://capec.mitre.org/documents/schema/index.html
+https://capec.mitre.org/data/downloads.html
+https://capec.mitre.org/data/xsd/ap_schema_latest.xsd
