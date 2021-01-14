@@ -129,6 +129,9 @@ Optional:
 * ***URL:*** Material being referenced.
 * ***URL Date:*** Date when the URL was validated to exist.
 
+###  Global Types
+ 
+
 ### CAPEC Attack Pattern schema
 
 ```xml
