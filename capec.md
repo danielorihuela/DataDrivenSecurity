@@ -1,17 +1,20 @@
-# CAPEC Schema Analysis
+# CAPEC Schema Analysis (3.4.0 Dec 17,2020)
 
 CAPEC (Common Attack Pattern Enumeration and Classification) is a set of common attack patterns to help understand how adversaries exploit weaknesses.
 
+## Attack Pattern Catalog
 
-# CAPEC Attack Pattern
+The Attack pattern catalog is used to hold an enumerated catalog of common attack patterns and contains:
 
+* **Attack Patterns**
+* **Categories**
+* **Views**
+* **External References**
+
+### Attack Pattern
 The Attack Pattern is an abstraction of an attack which has:
 
-* Attributes, which are mandatory
-* Elements, which can be optional
-
-
-## Attributes
+#### Attributes
 
 Each attack pattern has four attributes:
 
@@ -24,35 +27,157 @@ Each attack pattern has four attributes:
 * **Status (StatusEnumeration)**: Status of the specific Attack Pattern (Deprecated, Draft, Incomplete, Obsolete, Stable or Usable).
 
 
-## Elements
+#### Elements
 
 Mandatory:
-
-* Description
+* ***Description:*** Representation of a high level description of the attack pattern.
 
 Optional:
+* ***Alternate Terms:*** Alternative names to describe the same pattern.
+* ***Likelihood Of Attack:*** Captures the average probability that the attack uses a specific pattern to be successful.
+    * Possibilities: High, Medium, Low, Unknown.
+* ***Typ Severity:*** Overall average severity value for attacks that leverage this attack pattern.
+    * Possibilities: Very High, High, Medium, Low, Very Low.
+* ***Related Attack Patterns:*** Relates the CAPEC identifier to another attack pattern.
+* ***Execution Flow:*** Step-by-step description.
+* ***Prerequisites:*** Prerequisites to an attack.
+* ***Skills Required:*** Skills required to perform the attack.
+    * Possibilities: High, Medium, Low.
+* ***Resources Required:*** Resources needed to execute the attack.
+* ***Indicators:*** Activities, events, conditions or behaviors that may indicate that an attack of leveraging this attack pattern is imminent, in progress, or has occurred.
+* ***Consecuences:*** Individual consequences associated with an attack pattern.
+* ***Mitigations:*** Actions to prevent or mitigate the risk of an attack that leverages this attack pattern.
+* ***Example Instances:*** Attack pattern examples.
+* ***Related Weakness:*** References to weaknesses associated with this attack pattern.
+    * Example: <Related_Weakness CWE_ID="1021"/>.
+* ***Taxonomy Mappings:*** Similar categories in taxomomies outside of CAPEC.
+* ***References:*** External reference defined within the catalog.
+* ***Notes:*** Additional comments that cannot be captured using the other elements.
+* ***Content History:*** Track of the original author of an entry and any subsequent modifications to the content.
 
-* **Likelihood_Of_Attack**
-    * Possibilities: High, Medium, Low, Unknown
-* **Typical_Severity**
-    * Possibilities: Very High, High, Medium, Low, Very Low
-* **Related_Attack_Patterns**
-* **Execution_Flow**
-* **Prerequisites**
-* **Skills_Required**
-* **Resources_Required**
-* **Indicators**
-* **Consequences**
-* **Mitigations**
-* **Example_Instances**
-* **Related_Weaknesses**
-* **Taxonomy_Mappings**
-* **References**
-* **Notes**
-* **Content_History**
+### Category
+
+Collection of attack patterns based on some common characteristic.
+
+#### Attributes
+
+Each category has three attributes:
+
+Mandatory:
+* ***ID:*** Unique identifier for each category.
+* ***Name:*** Descriptive title.
+* ***Status:*** Status level for each category.
 
 
-## CAPEC Attack Pattern schema
+#### Elements
+
+Mandatory:
+* ***Summary:*** Definition of the category.
+
+Optional:
+* ***Relationships:*** Relationships with attack patterns, categories and views.
+* ***Taxonomy Mappings:*** Similar categories in taxomomies outside of CAPEC.
+* ***References:*** More defined information.
+* ***Notes:*** Additional comments that cannot be captured using the other elements.
+* ***Content History:*** Track of the original author of an entry and any subsequent modifications to the content.
+
+### View
+Perspective with which one might look at the collection of attack patterns defined within CAPEC.
+
+#### Attributes
+
+Each view has four attributes:
+
+Mandatory:
+* ***ID:*** Unique identifier for each category.
+* ***Name:*** Descriptive title.
+* ***Type:*** Description about how each view is being constructed.
+* ***Status:*** Status level for each category.
+  
+
+#### Elements
+
+Mandatory:
+* ***Objective:*** Description about the perspective from which the view has been constructed.
+
+Optional:
+* ***Audience:*** Reference of target stakeholders or group for whom the view is most relevant.
+* ***Members:*** Defined externally through memberOf relationships.
+* ***Filter:*** XSL query for identifying which attack patterns are members of an implicit slice.
+* ***References:*** More information about each view.
+* ***Notes:*** Additional comments that cannot be captured using the other elements.
+* ***Content History:*** Track of the original author of an entry and any subsequent modifications to the content.
+
+### External Reference
+Collection of elements that provide a pointer to where more information and deeper insight can be obtained.
+
+#### Attributes
+* ***Reference ID:*** Unique identifier for each reference.
+
+#### Elements
+Mandatory:
+* ***Title:*** Reference.
+
+Optional:
+* ***Author:*** Reference.
+* ***Edition:*** Identification of the edition.
+* ***Publication:*** If the reference is part of a magazine or journal, this element should be used to identify the name of the publisher.
+* ***Publication Year***
+* ***Publication Month***
+* ***Publication Day***
+* ***Publisher:*** More specs about the publisher.
+* ***URL:*** Material being referenced.
+* ***URL Date:*** Date when the URL was validated to exist.
+
+###  Global Types
+
+#### Complex Type Summary:
+
+* ***AlternateTermsType***
+* ***AudienceType***
+* ***ConsequencesType***
+* ***ContentHistoryType***
+* ***ExampleInstancesType***
+* ***ExcludeRelatedType***
+* ***ExecutionFlowType***
+* ***IndicatorsType***
+* ***MitigationsType***
+* ***NotesType***
+* ***PrerequisitesType***
+* ***ReferencesType***
+* ***RelatedAttackPatternType***
+* ***RelatedWeaknessesType***
+* ***RelationshipsType***
+* ***RequiredResourcesType***
+* ***SkillsType***
+* ***TaxonomyMappingsType***
+
+###  Enumerations
+
+#### Simple Type Summary:
+* ***AbstractionEnumeration***
+* ***ImportanceEnumeration***
+* ***LikelihoodEnumeration***
+* ***NoteTypeEnumeration***
+* ***RelatedNatureEnumeration***
+* ***ScopeEnumeration***
+* ***SeverityEnumeration***
+* ***SkillLevelEnumeration***
+* ***StakeholderEnumeration***
+* ***StatusEnumeration***
+* ***TaxonomyMappingFitEnumeration***
+* ***TaxonomyNameEnumeration***
+* ***TechnicalImpactEnumeration***
+* ***ViewTypeEnumeration***
+* ***TechnicalImpactEnumeration***
+* ***ViewTypeEnumeration***
+
+###  Structured Text
+
+#### Complex Type Summary:
+* ***StructuredTextType***
+
+### CAPEC Attack Pattern schema
 
 ```xml
 <!-- =============================================================================== -->
@@ -232,4 +357,6 @@ Optional:
 
 ## References
 
-https://capec.mitre.org/
+https://capec.mitre.org/documents/schema/index.html
+https://capec.mitre.org/data/downloads.html
+https://capec.mitre.org/data/xsd/ap_schema_latest.xsd
