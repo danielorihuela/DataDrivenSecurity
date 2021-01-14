@@ -73,9 +73,9 @@ Mandatory:
 * ***Summary:*** Definition of the category.
 
 Optional:
-* ***Relationships:*** Definition of the category.
-* ***Taxonomy Mappings:*** Definition of the category.
-* ***References:*** Definition of the category.
+* ***Relationships:*** Relationships with attack patterns, categories and views.
+* ***Taxonomy Mappings:*** imilar categories in taxomomies outside of CAPEC.
+* ***References:*** Relations with .
 * ***Notes:*** Definition of the category.
 * ***Content History:*** Definition of the category.
 
