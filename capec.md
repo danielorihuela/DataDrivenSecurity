@@ -1,4 +1,4 @@
-# CAPEC Schema Analysis
+# CAPEC Schema Analysis (3.4.0 Dec 17,2020)
 
 CAPEC (Common Attack Pattern Enumeration and Classification) is a set of common attack patterns to help understand how adversaries exploit weaknesses.
 
