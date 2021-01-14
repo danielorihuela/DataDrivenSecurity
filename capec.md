@@ -133,7 +133,7 @@ Optional:
 
 #### Complex Type Summary:
 
-* ***AlternateTerms Type***
+* ***AlternateTermsType***
 * ***AudienceType***
 * ***ConsequencesType***
 * ***ContentHistoryType***
@@ -152,7 +152,30 @@ Optional:
 * ***SkillsType***
 * ***TaxonomyMappingsType***
 
-###  Global Types
+###  Enumerations
+
+#### Simple Type Summary:
+* ***AbstractionEnumeration***
+* ***ImportanceEnumeration***
+* ***LikelihoodEnumeration***
+* ***NoteTypeEnumeration***
+* ***RelatedNatureEnumeration***
+* ***ScopeEnumeration***
+* ***SeverityEnumeration***
+* ***SkillLevelEnumeration***
+* ***StakeholderEnumeration***
+* ***StatusEnumeration***
+* ***TaxonomyMappingFitEnumeration***
+* ***TaxonomyNameEnumeration***
+* ***TechnicalImpactEnumeration***
+* ***ViewTypeEnumeration***
+* ***TechnicalImpactEnumeration***
+* ***ViewTypeEnumeration***
+
+###  Structured Text
+
+#### Complex Type Summary:
+* ***StructuredTextType***
 
 ### CAPEC Attack Pattern schema
 
