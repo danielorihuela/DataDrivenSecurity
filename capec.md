@@ -108,6 +108,15 @@ Optional:
 * ***Notes:*** Additional comments that cannot be captured using the other elements.
 * ***Content History:*** Track of the original author of an entry and any subsequent modifications to the content.
 
+### External Reference
+Collection of elements that provide a pointer to where more information and deeper insight can be obtained.
+
+#### Attributes
+* ***Reference ID:*** Unique identifier for each reference.
+
+#### Elements
+
+
 ### CAPEC Attack Pattern schema
 
 ```xml
