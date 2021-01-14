@@ -118,14 +118,16 @@ Collection of elements that provide a pointer to where more information and deep
 Mandatory:
 * ***Title:*** Reference.
 
-
 Optional:
-* ***Audience:*** Reference of target stakeholders or group for whom the view is most relevant.
-* ***Members:*** Defined externally through memberOf relationships.
-* ***Filter:*** XSL query for identifying which attack patterns are members of an implicit slice.
-* ***References:*** More information about each view.
-* ***Notes:*** Additional comments that cannot be captured using the other elements.
-* ***Content History:*** Track of the original author of an entry and any subsequent modifications to the content.
+* ***Author:*** Reference.
+* ***Edition:*** Identification of the edition.
+* ***Publication:*** If the reference is part of a magazine or journal, this element should be used to identify the name of the publisher.
+* ***Publication Year***
+* ***Publication Month***
+* ***Publication Day***
+* ***Publisher:*** More specs about the publisher.
+* ***URL:*** Material being referenced.
+* ***URL Date:*** Date when the URL was validated to exist.
 
 ### CAPEC Attack Pattern schema
 
