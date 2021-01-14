@@ -63,11 +63,21 @@ Collection of attack patterns based on some common characteristic
 
 Each category pattern has four attributes:
 
+
+
+#### Elements
+
+Each category pattern has four attributes:
+
 Mandatory:
-* ***Summary: Definition of the category.***
+* ***Summary:*** Definition of the category.
 
 Optional:
-
+* ***Relationships:*** Definition of the category.
+* ***Taxonomy Mappings:*** Definition of the category.
+* ***References:*** Definition of the category.
+* ***Notes:*** Definition of the category.
+* ***Content History:*** Definition of the category.
 
 ### CAPEC Attack Pattern schema
 
