@@ -30,30 +30,44 @@ Each attack pattern has four attributes:
 #### Elements
 
 Mandatory:
-* ***Description: Representation of a high level description of the attack pattern.*** 
+* ***Description:*** Representation of a high level description of the attack pattern.
 
 Optional:
-* ***Alternate Terms: Alternative names to describe the same pattern.*** 
-* ***Likelihood Of Attack: Captures the average probability that the attack uses a specific pattern to be successful.***
+* ***Alternate Terms:*** Alternative names to describe the same pattern.
+* ***Likelihood Of Attack:*** Captures the average probability that the attack uses a specific pattern to be successful.
     * Possibilities: High, Medium, Low, Unknown.
-* ***Typ Severity: Overall average severity value for attacks that leverage this attack pattern.***
+* ***Typ Severity:*** Overall average severity value for attacks that leverage this attack pattern.
     * Possibilities: Very High, High, Medium, Low, Very Low.
-* ***Related Attack Patterns: Relates the CAPEC identifier to another attack pattern.*** 
-* ***Execution Flow: Step-by-step description.*** 
-* ***Prerequisites: Prerequisites to an attack.*** 
-* ***Skills Required: Skills required to perform the attack.***
+* ***Related Attack Patterns:*** Relates the CAPEC identifier to another attack pattern.
+* ***Execution Flow:*** Step-by-step description.
+* ***Prerequisites:*** Prerequisites to an attack.
+* ***Skills Required:*** Skills required to perform the attack.
     * Possibilities: High, Medium, Low.
-* ***Resources Required: Resources needed to execute the attack***
-* ***Indicators: Activities, events, conditions or behaviors that may indicate that an attack of leveraging this attack pattern is imminent, in progress, or has occurred.***
-* ***Consecuences: Individual consequences associated with an attack pattern***
-* ***Mitigations: Actions to prevent or mitigate the risk of an attack that leverages this attack pattern.***
-* ***Example Instances: Attack pattern examples.***
-* ***Related Weakness: References to weaknesses associated with this attack pattern.***
+* ***Resources Required:*** Resources needed to execute the attack.
+* ***Indicators:*** Activities, events, conditions or behaviors that may indicate that an attack of leveraging this attack pattern is imminent, in progress, or has occurred.
+* ***Consecuences:*** Individual consequences associated with an attack pattern.
+* ***Mitigations:*** Actions to prevent or mitigate the risk of an attack that leverages this attack pattern.
+* ***Example Instances:*** Attack pattern examples.
+* ***Related Weakness:*** References to weaknesses associated with this attack pattern.
     * Example: <Related_Weakness CWE_ID="1021"/>.
-* ***Taxonomy Mappings: Similar categories in taxomomies outside of CAPEC.***
-* ***References: External reference defined within the catalog.***
-* ***Notes: Additional comments that cannot be captured using the other elements.***
-* ***Content History: Track of the original author of an entry and any subsequent modifications to the content.***
+* ***Taxonomy Mappings:*** Similar categories in taxomomies outside of CAPEC.
+* ***References:*** External reference defined within the catalog.
+* ***Notes:*** Additional comments that cannot be captured using the other elements.
+* ***Content History:*** Track of the original author of an entry and any subsequent modifications to the content.
+
+### Category
+
+Collection of attack patterns based on some common characteristic
+
+#### Attributes
+
+Each category pattern has four attributes:
+
+Mandatory:
+* ***Summary: Definition of the category.***
+
+Optional:
+
 
 ### CAPEC Attack Pattern schema
 
