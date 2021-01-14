@@ -57,7 +57,7 @@ Optional:
 
 ### Category
 
-Collection of attack patterns based on some common characteristic
+Collection of attack patterns based on some common characteristic.
 
 #### Attributes
 
